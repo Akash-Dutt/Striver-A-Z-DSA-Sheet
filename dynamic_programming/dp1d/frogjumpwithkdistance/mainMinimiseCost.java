@@ -30,12 +30,14 @@ public class mainMinimiseCost {
         System.out.println("Using Memoization Approach. Minimum Cost incurred to reach n(i.e "+ n +") stone by doing 1 to k(i.e "+ k +") jumps at each stone is : " + MAns + "\n");
 
 
-        // //Approach - 3 Tabulation
-        // int TAns = TabulationApproach.frogJump(n,heights);
-        // System.out.println("Using Tabulation Approach. Minimum Total Energy used by frog to reach n (" + n + "th) stair is: " + TAns + "\n");
+        //Approach - 3 Tabulation
+        int TAns = TabulationApproach.minimizeCost(n, k, height);
+        System.out.println("Using Tabulation Approach. Minimum Cost incurred to reach n(i.e "+ n +") stone by doing 1 to k(i.e "+ k +") jumps at each stone is : " + TAns + "\n");
 
-        // //Approach - 4 Space Optimization
-        // int SOAns = SpaceOptimizationApproach.frogJump(n, heights);
-        // System.out.println("Using Space Optimization Approach. Minimum Total Energy used by frog to reach n (" + n + "th) stair is: " + SOAns + "\n");
+        //Approach - 4 Space Optimization
+        /*we can definately space optimise this solution, but since there are 'k' indefinate jumps, we have to take 'k' varibales and if this K's value become equal 
+          to 'N' that will be the worst case senario in which we will have to take N variables, which will occupy space of O(N), 
+          so it is not efficient to space optimise this solution.
+          */
     }
 }
