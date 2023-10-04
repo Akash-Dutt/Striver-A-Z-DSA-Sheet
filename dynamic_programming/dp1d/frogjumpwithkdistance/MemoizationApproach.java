@@ -6,7 +6,7 @@ import java.util.Arrays;
 //Space Complexity : O(N) recursion call stack space + O(N) for dp array
 public class MemoizationApproach {
 
-    //Function
+    //Given Function to Complete
     public static int minimizeCost(int n, int k, int []height){
         
         //creating dp array of size n because we've to store values from 0 to n-1  

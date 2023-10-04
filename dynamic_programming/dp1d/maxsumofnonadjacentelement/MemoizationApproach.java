@@ -4,7 +4,7 @@ package dp1d.maxsumofnonadjacentelement;
 //SpaceComplexity :- O(N) dp array space + O(N) recursion call stack space
 public class MemoizationApproach {
 
-    //Function
+    //Given Function to Complete
     public static int MaxSumWithNoAdjacentElement(int arr[]){
         
         //create dp array of size n+1

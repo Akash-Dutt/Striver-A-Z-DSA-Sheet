@@ -4,7 +4,7 @@ package dp1d.maxsumofnonadjacentelement;
 //Space Complexity :- O(1)
 public class SpaceOptimizationApproach {
 
-    //Function
+    //Given Function to Complete
     public static int MaxSumWithNoAdjacentElement(int arr[]){
         
         //write base case with the help of variables

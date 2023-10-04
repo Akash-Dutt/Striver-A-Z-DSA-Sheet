@@ -4,6 +4,7 @@ package dp1d.climbingstairs;
 //Space Complexity : O(1) (we're using 3 variables i.e constant space)
 public class SpaceOptimizationApproach {
     
+    //Given Function to Complete
     public static int countDistinctWayToClimbStair(int n){
         
         // writing base cases in terms of variables

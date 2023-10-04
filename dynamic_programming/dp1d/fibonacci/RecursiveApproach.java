@@ -4,7 +4,7 @@ package dp1d.fibonacci;
 //Space Complexity :- O(N) recursion stack space
 public class RecursiveApproach {
     
-    //function
+    //Given Function to Complete
     public static int fibonacci(int n){
         //base cases
         if(n == 0 || n == 1){   

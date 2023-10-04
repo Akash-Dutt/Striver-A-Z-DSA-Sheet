@@ -4,7 +4,7 @@ package dp1d.maxsumofnonadjacentelement;
 //Space Complexity :- O(N) recursion call stack space 
 public class RecursiveApproach {
 
-    //Function
+    //Given Function to Complete
     public static int MaxSumWithNoAdjacentElement(int arr[]){
 
         //last index

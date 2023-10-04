@@ -3,10 +3,11 @@ package dp1d.frogjump;
 //Time Complexity : O(N)
 //Space Complexity : O(N) for dp array
 public class TabulationApproach {
-    //function frog jump
+
+    //Given Function to Complete
     public static int frogJump(int n, int heights[]) {
+
         //changing the stairs from (1 to n) To (0 to n-1) // it won't affect the given question
-        
         //cretaing dp array of size n to store values from 0 to n-1
         int dp[] = new int[n];
 

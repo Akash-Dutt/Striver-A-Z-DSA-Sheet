@@ -4,7 +4,7 @@ package dp1d.climbingstairs;
 //Space Complexity : O(N) dp array space
 public class TabulationApproach {
 
-    //Approach using Tabulation
+    //Given Function to Complete
     public static int countDistinctWayToClimbStair(int n){
         
         //creating dp array of size n+1

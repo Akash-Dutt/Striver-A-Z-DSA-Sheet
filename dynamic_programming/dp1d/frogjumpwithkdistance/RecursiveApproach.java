@@ -4,7 +4,7 @@ package dp1d.frogjumpwithkdistance;
 //Space Complexity : O(N) recursion call stack space
 public class RecursiveApproach {
 
-    //Function
+    //Given Function to Complete
     public static int minimizeCost(int n, int k, int []height){
         //passing n-1 because we have converted the problem into zero based indexing
         return helper(n-1, k, height);

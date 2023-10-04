@@ -3,8 +3,9 @@ package dp1d.frogjump;
 //Time Complexity : O(N)
 //Space Complexity : O(1)
 public class SpaceOptimizationApproach {
-     //function frog jump
-     public static int frogJump(int n, int heights[]) {
+
+    //Given Function to Complete
+    public static int frogJump(int n, int heights[]) {
         //changing the stairs from (1 to n) To (0 to n-1) // it won't affect the given question
         //using helper function to calculate answers using space optimization
         return helper(n-1, heights);

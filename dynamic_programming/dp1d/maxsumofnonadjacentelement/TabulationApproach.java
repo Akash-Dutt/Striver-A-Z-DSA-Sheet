@@ -4,7 +4,7 @@ package dp1d.maxsumofnonadjacentelement;
 //Space Complexity :- O(N) because we're using dp array space
 public class TabulationApproach {
 
-    //Function
+    //Given Function to Complete
     public static int MaxSumWithNoAdjacentElement(int arr[]){
         
         //create an array of length n

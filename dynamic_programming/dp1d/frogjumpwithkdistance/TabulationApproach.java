@@ -3,7 +3,8 @@ package dp1d.frogjumpwithkdistance;
 //Time Complexity : O(N*K)
 //Space Complexity: O(N) because we're using dp array
 public class TabulationApproach {
-    //Function
+    
+    //Given Function to Complete
     public static int minimizeCost(int n, int k, int []height){
         //create dp array of size n , so that elements can be store 0 to n-1
         int dp[] = new int [n]; 

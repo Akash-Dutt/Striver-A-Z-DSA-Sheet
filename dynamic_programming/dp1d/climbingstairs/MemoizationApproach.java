@@ -6,7 +6,7 @@ import java.util.Arrays;
 //Space Complexity : O(N) recursion stack space + O(N) for using dp array
 public class MemoizationApproach {
 
-    //Approach using recursion
+    //Given Function to Complete
     public static int countDistinctWayToClimbStair(int n){
         //create dp array of n+1 size
         int dp[] = new int[n+1];

@@ -5,7 +5,8 @@ import java.util.Arrays;
 //Time Complexity : O(N)
 //Space Complexity : O(N) recursion call stack space + O(N) for dp array
 public class MemoizationApproach {
-    //function frog jump
+
+    //Given Function to Complete
     public static int frogJump(int n, int heights[]) {
 
         //creating dp array of size n because we've to store values from 0 to n-1  
@@ -19,7 +20,7 @@ public class MemoizationApproach {
         return helper(n-1, dp, heights);
     }
 
-    //helper
+    //helper function
     public static int helper(int n, int dp[], int heights[]){
 
         //base case

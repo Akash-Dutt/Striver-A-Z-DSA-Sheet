@@ -4,7 +4,7 @@ package dp1d.climbingstairs;
 //Space Complexity : O(N) recursion stack space
 public class RecursiveApproach {
     
-    //Approach using recursion
+    //Given Function to Complete
     public static int countDistinctWayToClimbStair(int n){
         //base case
         /* 

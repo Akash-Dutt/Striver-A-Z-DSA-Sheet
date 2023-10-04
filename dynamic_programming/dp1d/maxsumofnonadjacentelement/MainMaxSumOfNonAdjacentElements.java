@@ -10,6 +10,7 @@ package dp1d.maxsumofnonadjacentelement;
 
 
 public class MainMaxSumOfNonAdjacentElements {
+    
     public static void main(String[] args) {
         //input array testcase
         int arr[] = {2, 1, 4, 9}; 

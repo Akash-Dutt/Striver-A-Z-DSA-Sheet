@@ -4,7 +4,7 @@ package dp1d.fibonacci;
 //Space Complexity : O(1)
 public class SpaceOptimizationApproach {
         
-    //function
+    //Given Function to Complete
     public static int fibonacci(int n){
         //base cases
         int prev0 = 0;  //0th element
